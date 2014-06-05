@@ -7,7 +7,12 @@ $ ->
     lang: 'ja'
     header:
       right: 'agendaDay agendaWeek month today prev next'
+    timezone:
+      'Asia/Tokyo'
+    defaultView:
+      'agendaWeek'
     events:
       url:
         'http://www.google.com/calendar/feeds/' +
         'ja.japanese%23holiday%40group.v.calendar.google.com/public/full'
+    eventSources: ['/availability/get']

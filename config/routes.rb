@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'availability/get'
+
   get 'sample_calendar/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

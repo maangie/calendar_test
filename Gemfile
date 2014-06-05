@@ -10,6 +10,7 @@ group :development, :test do
   gem 'sqlite3'
 
   gem 'rspec-rails'
+  gem 'pry-byebug'
 end
 
 # Use SCSS for stylesheets
