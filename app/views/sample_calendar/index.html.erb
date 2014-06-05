@@ -1,0 +1,8 @@
+<%= javascript_include_tag('http://momentjs.com/downloads/moment.min.js') %>
+<% fullcalendar = '//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.0.0' %>
+<%= javascript_include_tag("#{fullcalendar}/fullcalendar.min.js") %>
+<%= javascript_include_tag("#{fullcalendar}/lang/ja.js") %>
+<%= javascript_include_tag("#{fullcalendar}/gcal.js") %>
+<%= stylesheet_link_tag("#{fullcalendar}/fullcalendar.css") %>
+<h1>SampleCalendar</h1>
+<div id='calendar'></div>
